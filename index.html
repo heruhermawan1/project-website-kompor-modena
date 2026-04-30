@@ -1,325 +1,409 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kompor Modena</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin/>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
-</head>
-<body>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jasa Perbaikan Kompor Modena</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header class="site-header">
-        <div class="container header-inner">
-            <a href="#home" class="brand">Modena</a>
-            <button class="hamburger" id="hamburger-Toggle" aria-label="Buka Menu Navigasi" aria-extended="false">
-            <span></span>
-            <span></span>
-            <span></span>
-            </button>
-            <nav class="site-nav" id="siteNav">
-                <a href="#home">Beranda</a>
-                <a href="#keunggulan">Keunggulan</a>
-                <a href="#produk">Produk</a>
-                <a href="#galeri">Galeri</a>
-                <a href="#testimoni">Testimoni</a>
-                <a href="#faq">FAQ</a>
-                <a href="#vidio">Vidio</a>
-                <a href="#kontak">Kontak</a>
-            </nav>
-            <button class="btn btn-primary"id="btnDemo">Lihat Promo</button>
+      <div class="container header-inner">
+        <a href="#home" class="brand">Service Modena</a>
+        <button class="hamburger" id="hamburgerToggle" aria-label="Buka menu navigasi" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" id="siteNav">
+          <a href="#home">Beranda</a>
+          <a href="#keunggulan">Keunggulan</a>
+          <a href="#produk">Layanan</a>
+          <a href="#galeri">Galeri</a>
+          <a href="#testimoni">Testimoni</a>
+          <a href="#faq">FAQ</a>
+          <a href="#video">Video</a>
+          <a href="#kontak">Kontak</a>
+        </nav>
+        <button class="btn btn-primary" id="btnDemo">Lihat Layanan</button>
+      </div>
+      <div class="announcement-bar" aria-label="Informasi layanan perbaikan">
+        <div class="announcement-track">
+          <span>Kompor Modena Anda bermasalah? Kami siap membantu perbaikan cepat.</span>
+          <span>Hubungi teknisi service kompor Modena di 0812-3456-7890.</span>
+          <span>Melayani pengecekan api kecil, knop rusak, hingga kebocoran gas.</span>
+          <span>Teknisi berpengalaman siap datang ke rumah atau tempat usaha Anda.</span>
+          <span>Konsultasi kerusakan kompor Modena tersedia setiap hari.</span>
         </div>
-        <div class="announcement-bar" aria-lebel="Promo Dan Informasi Terbaru">
-            <div class="announcement-track">
-                <span>Promo Khursus: Gratis ongkir untuk pembelian Modena Aura!</span>
-                <span>IKompor Modena hadir dengan garansi 3 tahun + Layanan after sales nasional.</span>
-                <span>Pesan Sekarang dan dapatkan voucher diskon 10% untuk dapur modern anda</span>
-                <span>Promo Khursus: Gratis ongkir untuk pembelian Modena Aura!</span>
-                <span>Pesan Sekarang dan dapatkan voucher diskon 10% untuk dapur modern anda</span>
-            </div>
-
-            <main>
-                <section class="hero" id="home">
-                    <div class="container hero-grid">
-                        <div class="hero-copy">
-                            <p class="eyebrow">Kompor Pintar & Elegan</p>
-                            <h1>Solusi dapur modern untuk gaya hidup cerdas</h1>
-                            <p class="hero-text">Nikmati desain premium, kontrol presisi, dan keamanan maksimal dengan rangkaian kompor Modena Terbaru.</p>
-                            <div class="hero-actions">
-                                <a href="#produk" class="btn btn-primary">Lihat Produk</a>
-                                <a href="#kontak" class="btn btn-secondary">Hubungi kami</a>
-                            </div>
-                            <div class="hero-stats">
-                                <strong>4.9 / 5</strong>
-                                <span>Rating pengguna</span>
-                            </div>
-                            <div class="stat">
-                                <strong>10+</strong>
-                                <span>Fitur Keselamatan</span>
-                            </div>
-                            <div class="stat">
-                                <strong>24/7</strong>
-                                <span>Dukungan pelanggan</span>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="features" id="keunggulan">
-                    <div class="container section-heading">
-                        <p class="section-label">Kenapa pilih Modena?</p>
-                        <h2>Performa, keamanan, dan estetika dalam satu paket.</h2>
-                    </div>
-                    <div class="container feature-grid">
-                        <article class="feature-card">
-                            <h3>Kontrol Digital</h3>
-                            <p>Atur panas dengan mudah lewat tombol sentuh dan tampilan LED yang intuitif.</p> 
-                        </article>
-                        <article class="feature-card">
-                            <h3>Efisiensi Energi</h3>
-                            <p>Desain pembakaran yang canggih mengurangi konsumsi gas tanpa mengurangi daya masak.</p>
-                        </article>
-                        <article class="feature-card">
-                            <h3>Material Premium</h3>
-                            <p>Surface tempered glass dan frame stainles stell untuk daya tahan lama dan mudah dibersihkan.</p>
-                        </article>
-                        <article class="feature-card">
-                            <h3>Fitur Keamanan</h3>
-                            <p>Proteksi otomatis mati saat suhu berlebihan atau api padam mendadak.</p>
-                        </article>
-                    </div>
-                </section>
-                <section class="products" id="produk">
-                    <div class="container section-heading">
-                        <p class="section-label">Koleksi Unggulan</p>
-                        <h2>Model kompor Modena untuk setiap dapur.</h2>
-                    </div>
-                    <div class="container product-grid">
-                        <article class="product-card">
-                            <span class="tag">Smart</span>
-                            <h3>Modena Aura</h3>
-                            <p>Kompor 4 tungku dengan panel sentuh dari timer digital.</p>
-                            <ul>
-                                <li>Glass top hitam</li>
-                                <li>Fungsi Simmer</li>
-                                <li>Auto Flame out</li>
-                            </ul> 
-                        </article>
-                        <article class="product-card">
-                            <span class="tag">Premium</span>
-                            <h3>Modena Nova</h3>
-                            <p>Desain minimalis cocok untuk dapur modern dengan performa maksimal.</p>
-                            <ul>
-                                <li>2 tungku ganda</li>
-                                <li>Frame stainles steel</li>
-                                <li>Pengaturan presisi</li>
-                            </ul>
-                        </article>
-                        <article class="product-card">
-                            <span class="tag">Eco</span>
-                            <h3>Modena Eco</h3>
-                            <p>Konsep hemat energi dengan output stabil dan sistem pendingin cerdas.</p>
-                            <ul>
-                                <li>Desain ramping</li>
-                                <li>Gas saver</li>
-                                <li>Perawatan mudah</li>
-                            </ul>
-                        </article>
-                    </div>
-                </section>
-
-                <section class="highlights" id="layanan">
-                    <div class="container section-heading">
-                        <p class="section-label">Fitur Tambahan</p>
-                        <h2>Lebih banyak nilai untuk dapur anda</h2>
-                    </div>
-                    <div class="container highlight-grid">
-                        <article class="highlight-card">
-                            <span class="highlight-icon">🐫</span>
-                            <h3>Responsif cepat</h3>
-                            <p>Tangkas pengaturan suhu secara instan dengan tampilan digital. </p>
-                        </article>
-                        <article class="highlight-card">
-                            <span class="highlight-icon">💡</span>
-                            <h3>Keamanan Total</h3>
-                            <p>Proteksi otomatis mati saat kondisi tidak ideal terdeteksi.</p>
-                        </article>
-                        <article class="highlight-card">
-                            <span class="highlight-icon">🌿</span>
-                            <h3>Perawatan Mudah</h3>
-                            <p>Permukaan gampang di bersihkan, tetap kinclong setiap hari.</p>
-                        </article>
-                        <article class="highlight-card">
-                            <span class="highlight-icon">⚡</span>
-                            <h3>Desain Futuristik</h3>
-                            <p>Bentuk tipis dan elegan yang jadi pusat perhatian dapur modern.</p>
-                        </article>
-                    </div>
-                </section>
-                <section class="gallery" id="galeri">
-                    <div class="container section-heading">
-                        <p class="section-label">Koleksi foto</p>
-                        <h2>Intip keindahan desain dan fungsionalitas Modena.</h2>
-                    </div>
-                    <div class="container gallery-grid">
-                        <article class="gallery-card">
-                            <img src="assets/p1.jpg" alt="Kompor modern di dapur" />
-                            <div class="gallery-copy">
-                                <h3>Dapur Minimalis</h3>
-                                <p>Sentuhan premium untuk interior masa kini.</p>
-                            </div>
-                        </article>
-                        <article class="gallery-card">
-                            <img src="assets/p2.jpg" alt="Kompor Modena merah" />
-                            <div class="gallery-copy">
-                                <h3>Warna Elegan</h3>
-                                <p>Desain tampil mewah dalam setiap sudut.</p>
-                            </div>
-                        </article>
-                        <article class="gallery-card">
-                            <img src="assets/p3.jpg" alt="Dapur Modern dengan kompor" />
-                            <div class="gallery-copy">
-                                <h3>Teknologi Canggih</h3>
-                                <p>Panel sentuh dan hasil masak konsisten.</p>
-                            </div>
-                        </article>
-                        <article class="gallery-card">
-                            <img src="assets/p4.jpg" alt="Kompor Modena dan peralatan masak" />
-                            <div class="gallery-copy">
-                                <h3>Fungsionalitas penuh</h3>
-                                <p>Semua kebutuhan dapur jadi lebih mudah.</p>
-                            </div>
-                        </article>
-                        <article class="gallery-card">
-                            <img src="assets/p5.jpg" alt="Detail kompor modern" />
-                            <div class="gallery-copy">
-                                <h3>Detail rapih</h3>
-                                <p>Permukaan glass top mudah dibersihkan.</p>
-                            </div>
-                        </article>
-                        <article class="gallery-card">
-                            <img src="assets/p6.jpg" alt="Kompor dan suasana dapur" />
-                            <div class="gallery-copy">
-                                <h3>Suasana dapur</h3>
-                                <p>Harmonisasi antara gaya dan fungsi.</p>
-                            </div>
-                        </article>
-                    </div>
-                </section>
-                <section class="testimonial" id="testimoni">
-                    <div class="container section-heading">
-                        <p class="section-label">Testimoni</p>
-                        <h2>Pelanggan kami puas dengan hasilnya.</h2>
-                    </div>
-                    <div class="container testimonial-grid">
-                        <article class="testimonial-card">
-                            <p>"Kompor Modena membuat dapur saya terlihat lebih modern. Hasil masak lebih cepat dan bersih."</p>
-                            <div class="testimonial-meta">
-                                <strong>Dewi</strong>
-                                <span>Chef rumahan</span>
-                            </div>
-                        </article>
-                        <article class="testimonial-card">
-                            <p>"Sensor otomatis dan desainnya sangat berguna. Sangat recommend untuk keluarga urban."</p>
-                            <div class="testimonial-meta">
-                                <strong>Rian</strong>
-                                <span>Pengusaha kuliner</span>
-                            </div>
-                        </article>
-                        <article class="testimonial-card">
-                            <p>"Instalasi cepat dan layanan purna jualnya sangat responsif. Kompor ini benar-benar top."</p>
-                            <div class="testimonial-meta">
-                                <strong>Sari</strong>
-                                <span>Arsitek interior</span>
-                            </div>
-                        </article>
-                    </div>
-                </section>
-                <section class="faq" id="faq">
-                    <div class="container section-heading">
-                        <p class="section-label">Pertanyaan Umum</p>
-                        <h2>Jawaban cepat untuk pertanyaan pelanggan </h2>
-                    </div>
-                    <div class="container faq-grid">
-                        <article class="faq-card">
-                        <button class="faq-question" type="button">Apakah garansi termasuk servis?</button>
-                        <div class="faq-answer">Ya, Setiap pembelian Modena dilengkapi dengan garansi 3 tahun dan layanan servis resmi.</div>
-                        </article>
-                    <article class="faq-card">
-                        <button class="faq-question" type="button">Apakah pemesangan termasuk layanan?</button>
-                        <div class="faq-answer">Pemasangan tersedia sebagai paket tambahan dengan teknisi berpengalaman.</div>
-                    </article>
-                    <article class="faq-card">
-                        <button class="faq-question" type="button">Bagaimana cara membersihkan panel?</button>
-                        <div class="faq-answer">Gunakan kain lembut dan cairan pembersih khusus kaca untuk hasil terbaik.</div>
-                    </article>
-                    </div>
-                </section>
-                <section class="vidio" id="vidio">
-                    <div class="container section-heading">
-                        <p class="section-label">Vidio pengerjaan</p>
-                        <h2>Lihat proses instalasi dan penggunaan kompor Modena.</h2>
-                    </div>
-                    <div class="container vidio-wrap">
-                        <vidio controls poster="assets/v2.mp4">
-                            <source src="assets/v2.mp4" type="video/mp4"/>
-                            Browser anda tidak mendukung pemutar video.
-                        </vidio>
-                    </div>
-                </section>
-
-                <section class="callout">
-                    <div class="container callout-inner">
-                        <div>
-                            <p class="eyebrow">Inovasi untuk setiap masakan</p>
-                            <h2>Ubah dapur anda menjadi pusat kreasi yang indah.</h2>
-                        </div>
-                        <button class="btn btn-primary" id="btnStart">Mulai Sekarang</button>
-                    </div>     
-                </section>
-
-                <section class="contact" id="kontak">
-                    <div class="container section-heading">
-                        <p class="section-label">Hubungi</p>
-                        <h2>Siap membantu kebutuhan dapur Anda.</h2>
-                    </div>
-                    <div class="container contact-grid">
-                        <div class="contact-card">
-                            <h3>Kontak Resmi</h3>
-                            <p>Telp: 021-1234-5678</p>
-                            <p>Email: info@modena.com</p>
-                            <p>Alamat: Jl. Dapur modern No. 8, Jakarta</p>
-                        </div>
-                        <form class="contact-from" id="contactForm">
-                            <label>
-                                Nama
-                                <input type="text" name="name"  placeholder="Nama Anda" required />
-                            </label>
-                            <label>Email
-                                <input type="email" name="email" placeholder="Email@domain.com" required />
-                            </label>
-                            <label>Pesan
-                                <textarea name="message" row="4" placeholder="Tulis pesan Anda disini..." required></textarea>
-                            </label>
-                            <button type="submit" class="btn btn-primary">Kirim Pesan</button>
-                            <p class="submit-feedback" id="submitFeedback"></p>
-                        </form>
-                    </div>
-                </section>
-            </main>
-
-            <a href="#kontak" class="btn-floating" aria-label="Hubungi Sekarang">Hubungi Sekarang</a>
-            <footer class="site-footer">
-                <div class="container footer-inner">
-                    <p>© 2026 Modena Indonesia. Semua hak cipta dilindungi.</p>
-                    <div class="footer-links"></div>
-                    <a href="#home">Beranda</a>
-                    <a href="#produk">Produk</a>
-                    <a href="#kontak">Kontak</a>
-                </div>
-            </footer>
-        </div>
+      </div>
     </header>
-</body>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Jasa Service Kompor Modena</p>
+            <h1>Perbaikan kompor Modena cepat, rapi, dan ditangani teknisi berpengalaman.</h1>
+            <p class="hero-text">Kami melayani servis kompor Modena untuk masalah api tidak stabil, pemantik rusak, kebocoran gas, hingga perawatan berkala di rumah maupun tempat usaha.</p>
+            <div class="hero-note">
+              <span>Teknisi datang cepat ke lokasi</span>
+              <span>Pengecekan dan perbaikan lebih teliti</span>
+            </div>
+            <div class="hero-actions">
+              <a href="#produk" class="btn btn-primary">Lihat Layanan</a>
+              <a href="https://wa.me/+6281283338556" class="btn btn-secondary">Pesan Teknisi</a>
+            </div>
+            <div class="hero-stats">
+              <div class="stat">
+                <strong>500+</strong>
+                <span>Unit berhasil diperbaiki</span>
+              </div>
+              <div class="stat">
+                <strong>Same Day</strong>
+                <span>Layanan cepat area terjangkau</span>
+              </div>
+              <div class="stat">
+                <strong>24/7</strong>
+                <span>Konsultasi pelanggan</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-card">
+            <div class="hero-orbit hero-orbit-one"></div>
+            <div class="hero-orbit hero-orbit-two"></div>
+            <div class="card-glow"></div>
+            <div class="hero-photo-stack">
+              <figure class="hero-photo hero-photo-main">
+                <img src="assets/Foto1.jpeg" alt="Service kompor Modena tampilan utama" />
+              </figure>
+              <figure class="hero-photo hero-photo-top">
+                <img src="assets/Foto2.jpeg" alt="Teknisi memeriksa bagian kompor Modena" />
+              </figure>
+              <figure class="hero-photo hero-photo-bottom">
+                <img src="assets/Foto3.jpeg" alt="Hasil akhir perbaikan kompor Modena" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust-strip" aria-label="Jaminan layanan Modena">
+        <div class="container trust-grid">
+          <article class="trust-item">
+            <strong>Diagnosa Akurat</strong>
+            <span>Pemeriksaan menyeluruh agar sumber kerusakan cepat ditemukan.</span>
+          </article>
+          <article class="trust-item">
+            <strong>Perbaikan Aman</strong>
+            <span>Penanganan rapi untuk menjaga kompor tetap aman digunakan.</span>
+          </article>
+          <article class="trust-item">
+            <strong>Konsultasi Cepat</strong>
+            <span>Bantu jelaskan kerusakan, estimasi tindakan, dan langkah perawatan.</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="features" id="keunggulan">
+        <div class="container section-heading">
+          <p class="section-label">Kenapa pilih kami?</p>
+          <h2>Layanan service kompor Modena yang cepat, aman, dan terpercaya.</h2>
+        </div>
+        <div class="container feature-grid">
+          <article class="feature-card">
+            <h3>Respon Cepat</h3>
+            <p>Admin dan teknisi sigap menindaklanjuti laporan kerusakan Anda.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Prioritas Keamanan</h3>
+            <p>Pengecekan dilakukan untuk meminimalkan risiko kebocoran dan gangguan lain.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Perawatan Berkala</h3>
+            <p>Membantu menjaga performa kompor tetap stabil dan umur pakai lebih panjang.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Konsultasi Mudah</h3>
+            <p>Anda bisa kirim keluhan lebih dulu sebelum teknisi datang ke lokasi.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="products" id="produk">
+        <div class="container section-heading">
+          <p class="section-label">Layanan Utama</p>
+          <h2>Jenis perbaikan kompor Modena yang kami tangani.</h2>
+        </div>
+        <div class="container product-grid">
+          <article class="product-card product-card-aura">
+            <span class="tag">Service</span>
+            <div class="product-visual">
+              <span class="product-visual-chip">Api Bermasalah</span>
+              <strong>01</strong>
+              <span>Pemeriksaan aliran gas dan pembakaran</span>
+            </div>
+            <h3>Perbaikan Api Kecil atau Tidak Rata</h3>
+            <p>Solusi untuk api kecil, api merah, atau tungku yang tidak menyala sempurna.</p>
+            <ul>
+              <li>Bersihkan burner dan nozzle</li>
+              <li>Cek aliran gas</li>
+              <li>Setel pembakaran lebih stabil</li>
+            </ul>
+            <div class="product-footer">
+              <span class="product-badge">Paling sering ditangani</span>
+              <a href="#kontak" class="text-link">Konsultasi kerusakan</a>
+            </div>
+          </article>
+          <article class="product-card product-card-nova">
+            <span class="tag">Repair</span>
+            <div class="product-visual">
+              <span class="product-visual-chip">Pemantik Rusak</span>
+              <strong>02</strong>
+              <span>Perbaikan igniter dan knop pemicu</span>
+            </div>
+            <h3>Perbaikan Pemantik dan Knop Kompor</h3>
+            <p>Penanganan untuk pemantik tidak bunyi, knop seret, atau tombol tidak berfungsi.</p>
+            <ul>
+              <li>Cek sistem pemantik</li>
+              <li>Perbaiki knop rusak</li>
+              <li>Uji fungsi setelah servis</li>
+            </ul>
+            <div class="product-footer">
+              <span class="product-badge">Penanganan detail</span>
+              <a href="#kontak" class="text-link">Konsultasi kerusakan</a>
+            </div>
+          </article>
+          <article class="product-card product-card-eco">
+            <span class="tag">Maintenance</span>
+            <div class="product-visual">
+              <span class="product-visual-chip">Cek Kebocoran</span>
+              <strong>03</strong>
+              <span>Pemeriksaan keamanan untuk penggunaan harian</span>
+            </div>
+            <h3>Perawatan Berkala dan Cek Keamanan</h3>
+            <p>Service rutin untuk menjaga kompor Modena tetap aman, bersih, dan awet dipakai.</p>
+            <ul>
+              <li>Cek kebocoran gas</li>
+              <li>Bersihkan komponen utama</li>
+              <li>Pastikan fungsi normal</li>
+            </ul>
+            <div class="product-footer">
+              <span class="product-badge">Cocok untuk service rutin</span>
+              <a href="#kontak" class="text-link">Konsultasi kerusakan</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="journey" id="proses">
+        <div class="container section-heading">
+          <p class="section-label">Proses Mudah</p>
+          <h2>Dari laporan kerusakan sampai kompor kembali normal.</h2>
+        </div>
+        <div class="container journey-grid">
+          <article class="journey-card reveal">
+            <span class="journey-step">01</span>
+            <h3>Laporkan Kerusakan</h3>
+            <p>Sampaikan kendala kompor Modena Anda, mulai dari api kecil, pemantik mati, hingga bau gas.</p>
+          </article>
+          <article class="journey-card reveal">
+            <span class="journey-step">02</span>
+            <h3>Jadwalkan Kunjungan</h3>
+            <p>Kami atur waktu kedatangan teknisi sesuai lokasi dan jadwal yang paling nyaman untuk Anda.</p>
+          </article>
+          <article class="journey-card reveal">
+            <span class="journey-step">03</span>
+            <h3>Perbaikan dan Uji Fungsi</h3>
+            <p>Teknisi memperbaiki kompor, melakukan pengecekan ulang, lalu memastikan kompor aman digunakan kembali.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="highlights" id="layanan">
+        <div class="container section-heading">
+          <p class="section-label">Keunggulan Layanan</p>
+          <h2>Lebih tenang dengan service kompor Modena yang tepat.</h2>
+        </div>
+        <div class="container highlight-grid">
+          <article class="highlight-card">
+            <span class="highlight-icon" aria-hidden="true">&#9889;</span>
+            <h3>Respon Cepat</h3>
+            <p>Admin dan teknisi sigap menindaklanjuti laporan kerusakan Anda.</p>
+          </article>
+          <article class="highlight-card">
+            <span class="highlight-icon" aria-hidden="true">&#128737;</span>
+            <h3>Prioritas Keamanan</h3>
+            <p>Pengecekan dilakukan untuk meminimalkan risiko kebocoran dan gangguan lain.</p>
+          </article>
+          <article class="highlight-card">
+            <span class="highlight-icon" aria-hidden="true">&#10024;</span>
+            <h3>Perawatan Berkala</h3>
+            <p>Membantu menjaga performa kompor tetap stabil dan umur pakai lebih panjang.</p>
+          </article>
+          <article class="highlight-card">
+            <span class="highlight-icon" aria-hidden="true">&#128241;</span>
+            <h3>Konsultasi Mudah</h3>
+            <p>Anda bisa kirim keluhan lebih dulu sebelum teknisi datang ke lokasi.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="gallery" id="galeri">
+        <div class="container section-heading">
+          <p class="section-label">Galeri Service</p>
+          <h2>ini adalah galeri service kompor Modena</h2>
+        </div>
+        <div class="container gallery-grid">
+          <article class="gallery-card">
+            <img src="assets/Foto4.jpeg" alt="Kompor modern di dapur" />
+          </article>
+          <article class="gallery-card">
+            <img src="assets/Foto1.jpeg" alt="Kompor Modena merah" />
+          </article>
+          <article class="gallery-card">
+            <img src="assets/Foto2.jpeg" alt="Dapur modern dengan kompor" />
+          </article>
+          <article class="gallery-card">
+            <img src="assets/Foto3.jpeg" alt="Kompor Modena dan peralatan masak" />
+          </article>
+          <article class="gallery-card">
+            <img src="assets/Foto5.jpeg" alt="Detail kompor modern" />
+            <div class="gallery-copy">
+          </article>
+          <article class="gallery-card">
+            <img src="assets/Foto6.jpeg" alt="Kompor dan suasana dapur" />
+          </article>
+        </div>
+      </section>
+
+      <section class="testimonial" id="testimoni">
+        <div class="container section-heading">
+          <p class="section-label">Testimoni Pelanggan</p>
+          <h2>Pelanggan merasa terbantu dengan service kami.</h2>
+        </div>
+        <div class="container testimonial-grid">
+          <article class="testimonial-card reveal">
+            <p>"Api kompor Modena saya sempat kecil dan sering mati. Setelah diservis, nyalanya kembali normal dan aman dipakai."</p>
+            <div class="testimonial-meta">
+              <strong>Dewi</strong>
+              <span>Ibu rumah tangga</span>
+            </div>
+          </article>
+          <article class="testimonial-card reveal">
+            <p>"Teknisinya datang cepat, pengecekannya jelas, dan masalah pemantik kompor langsung beres di tempat."</p>
+            <div class="testimonial-meta">
+              <strong>Rian</strong>
+              <span>Pemilik usaha kuliner</span>
+            </div>
+          </article>
+          <article class="testimonial-card reveal">
+            <p>"Saya suka karena penanganannya rapi dan dijelaskan juga cara merawat kompor Modena agar tidak cepat rusak lagi."</p>
+            <div class="testimonial-meta">
+              <strong>Sari</strong>
+              <span>Karyawan swasta</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="faq" id="faq">
+        <div class="container section-heading">
+          <p class="section-label">Pertanyaan Umum</p>
+          <h2>Jawaban singkat seputar service kompor Modena.</h2>
+        </div>
+        <div class="container faq-grid">
+          <article class="faq-card">
+            <button class="faq-question" type="button">Kerusakan apa saja yang bisa ditangani?</button>
+            <div class="faq-answer">Kami menangani api kecil, pemantik mati, knop rusak, kebocoran gas, dan perawatan berkala kompor Modena.</div>
+          </article>
+          <article class="faq-card">
+            <button class="faq-question" type="button">Apakah teknisi bisa datang ke rumah?</button>
+            <div class="faq-answer">Ya, kami melayani kunjungan teknisi ke rumah, apartemen, kos, hingga tempat usaha sesuai area jangkauan.</div>
+          </article>
+          <article class="faq-card">
+            <button class="faq-question" type="button">Apakah bisa konsultasi sebelum service?</button>
+            <div class="faq-answer">Bisa, Anda dapat menjelaskan gejala kerusakan terlebih dulu agar kami bantu arahkan penanganan awal.</div>
+          </article>
+        </div>
+      </section>
+
+      <section class="video" id="video">
+        <div class="container section-heading">
+          <p class="section-label">Video Pengerjaan</p>
+          <h2>Lihat proses service dan pengecekan kompor Modena.</h2>
+        </div>
+        <div class="container video-wrap">
+          <video controls poster="assets/Foto1.jpeg" style="max-width: 300px; width: 100%; height: auto; border-radius: 12px; display: block; margin: 0 auto;">
+            <source src="assets/Vd1.mp4" type="video/mp4" />
+            Browser Anda tidak mendukung video.
+          </video>
+        </div>
+      </section>
+
+      <section class="callout">
+        <div class="container callout-inner">
+          <div>
+            <p class="eyebrow">Butuh teknisi kompor Modena?</p>
+            <h2>Segera jadwalkan service sebelum kerusakan menjadi lebih parah.</h2>
+          </div>
+          <a href="https://wa.me/+6281283338556" class="btn btn-primary">Hubungi Sekarang</a>
+        </div>
+      </section>
+
+      <section class="contact" id="kontak">
+        <div class="container section-heading">
+          <p class="section-label">Hubungi</p>
+          <h2>Siap membantu service kompor Modena Anda.</h2>
+        </div>
+        <div class="container contact-grid">
+          <div class="contact-card">
+            <h3>Layanan Service</h3>
+            <p>Telp: 021-1234-5678</p>
+            <p>WhatsApp: 0812-3456-7890</p>
+            <p>Email: Homeservicekompor@gmail.com</p>
+            <div class="contact-points">
+              <span>Respon cepat di jam kerja</span>
+              <span>Konsultasi kerusakan gratis</span>
+              <span>Tersedia jadwal kunjungan teknisi</span>
+            </div>
+          </div>
+          <form class="contact-form" id="contactForm">
+            <label>
+              Nama
+              <input type="text" name="name" placeholder="Nama Anda" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="email@gmail.com" required />
+            </label>
+            <label>
+              Pesan
+              <textarea name="message" rows="4" placeholder="Jelaskan kerusakan kompor Modena Anda..." required></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary">Pesan Teknisi</button>
+            <p class="submit-feedback" id="submitFeedback"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <a href="https://wa.me/+6281283338556" class="btn-floating" aria-label="Pesan Teknisi">Pesan Teknisi</a>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; 2026 Jasa Perbaikan Kompor Modena. Semua hak cipta dilindungi.</p>
+        <div class="footer-links">
+          <a href="#home">Beranda</a>
+          <a href="#produk">Layanan</a>
+          <a href="#kontak">Kontak</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
