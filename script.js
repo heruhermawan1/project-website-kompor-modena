@@ -117,4 +117,4 @@ window.addEventListener('scroll', () => {
   const scrolled = window.pageYOffset;
   const body = document.body;
   body.style.setProperty('--scroll-offset', `${scrolled * 0.5}px`);
-});
+})
