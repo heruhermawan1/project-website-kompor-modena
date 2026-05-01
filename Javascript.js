@@ -21,10 +21,8 @@ contactForm?.addEventListener('submit', (event) => {
     const email = contactForm.elements.email.value.trim();
     const message = contactForm.elements.message.value.trim();
 
-    const whatsappNumber = 'Halo saya ${name}
-Email: ${email}
-const whatsappUrl = 'https://wa.me/+6281283338556?text=$(whatsappMessage)';
-
+    const whatsappMessage = `Halo, saya ${name}%0AEmail: ${email}%0APesan: ${message}`;
+    const whatsappUrl = 'https://wa.me/+6281283338556?text=$(whatsappMessage)';
 
     window.open(whatsappUrl, '_blank');
     contactForm.reset();
