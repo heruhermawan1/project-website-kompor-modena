@@ -9,6 +9,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18148259322"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-18148259322');
+</script>
+
   </head>
   <body>
     <header class="site-header">
@@ -336,10 +346,10 @@
           <h2>Lihat proses service dan pengecekan kompor Modena.</h2>
         </div>
         <div class="container video-wrap animate-fade-up delay-1">
-          <video controls poster="assets/Foto1.jpeg" style="max-width: 300px; width: 100%; height: auto; border-radius: 12px; display: block; margin: 0 auto;">
-            <source src="assets/Vd1.mp4" type="video/mp4" />
-            Browser Anda tidak mendukung video.
-          </video>
+<video controls autoplay muted loop playsinline class="w-full rounded-2xl">
+    <source src="assets/vd1.mp4" type="video/mp4">
+    Browser Anda tidak mendukung tag video.
+</video>
         </div>
       </section>
 
@@ -403,6 +413,7 @@
       </div>
     </footer>
 
-    <script src="script.js"></script>
+
+      <script src="script.js"></script>
   </body>
 </html>
